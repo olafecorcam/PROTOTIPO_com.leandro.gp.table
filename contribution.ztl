@@ -1,0 +1,19 @@
+class com.leandro.gp.table.Table extends Component {
+	/**
+	Used to get the Value selected on the component
+	
+	<returns>
+	The Value of selected
+	</returns>
+  	*/
+	String getSelectedValue(){*
+		return this.selectedValue;
+	*}
+	
+	String getSelectedKey(){*
+		return this.selectedKey;
+	*}
+	void setSelectedValue(String value){*
+		this.selectedValue = value;
+	*}
+}
